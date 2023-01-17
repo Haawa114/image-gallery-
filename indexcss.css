@@ -1,0 +1,40 @@
+h1{
+    text-align:center;
+    color:green;
+    font-size: 55px;
+}
+
+
+body{
+    background-color: antiquewhite;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+
+}
+
+.grid-container{
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding-left:150px ;
+    padding-right: 150px;
+    display: grid;
+}
+
+
+
+.flex-container {
+    background-color:white;
+    display:flex;
+    border-radius: 50px;
+    justify-content: center;
+
+  }
+  
+
+
+
+
